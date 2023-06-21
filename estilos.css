@@ -1,0 +1,373 @@
+.Header
+    {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        background-image: url(img/hidro.jpg);
+        background-size: cover;
+    }
+
+.Logo
+    {
+        width: 30%;
+        height: 90%;
+        flex: 1;
+        background-image: url(img/logo.png);
+        background-repeat: no-repeat
+    
+    }
+
+.Titulo
+    {
+        width: 40%;
+        height: 90%;
+        display: inline-block;
+        padding-top: 5%;
+        text-align: center;
+
+    }
+
+h1
+    {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 45px;
+        color: rgb(3, 13, 12);
+        text-decoration: solid;
+    }
+
+h2
+    {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        font-size: 20px;
+    }
+
+
+.Barra
+    {
+        width: 100%;
+        height: 10%;
+    }
+
+nav
+    {
+        float: right;
+        padding: 0%;
+        margin-top: 0%;
+    }
+
+
+.listadebarra
+    {
+        list-style: none;
+    }
+
+.elementobarra 
+    {
+        float: left;
+        padding: 0 20px 0 20px;
+    }
+
+a
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
+    }
+
+.Medio
+    {
+        display: flex;
+        width: 100%;
+        height: 60%;
+    }
+
+.izq
+    {
+        width: 50%;
+        height: 100%;
+        float: left;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+h3
+    {
+        text-align: center;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+h4
+    {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+p
+    {
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+.der
+    {
+        width: 50%;
+        height: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        float: right;
+        background-image: url(img/lago.jpg);
+        background-size: cover;
+    }
+
+.Abajo
+    {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        margin-top: 20px;
+    }
+
+.izqui
+    {
+    width: 50%;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    background-image: url(img/pileta.jpg);
+    background-size: cover;
+    }
+
+.dere
+{
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Treselementos
+{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    margin-top: 25px;
+}
+
+.izquierda
+    {
+        width: 30%;
+        height: 100%;
+        float: left;
+        margin-right: 20px;
+    }
+
+.centro
+    {
+        width: 33%;
+        height: 100%;
+        background-image: url(img/playa.jpg);
+        background-size: cover;
+        display: inline-block;
+    }
+
+.derecha
+    {
+        width: 33%;
+        height: 100%;
+        background-image: url(img/sal.jpg);
+        background-size: cover;
+        float: right;
+    }
+
+.Ultimo
+    {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        margin-top: 25px;
+    }
+
+.primero
+    {
+    width: 33%;
+    height: 100%;
+    background-image: url(img/ruinas.jpg);
+    background-size: cover;
+    float: left;
+    }
+
+.segundo
+    {
+    width: 33%;
+    height: 100%;
+    background-image: url(img/flamencos.jpg);
+    background-size: cover;
+    display: inline-block;
+    margin-left: 20px;
+    }
+
+.tercero
+    {
+    width: 30%;
+    height: 100%;
+    float: right;
+    margin-right: 20px;
+    }
+
+.Galeria
+    {
+    width: 100%;
+    height: 40%;
+    }
+
+.foto1
+    {
+        width: 25%;
+        height: 100%;
+        float: left;
+        background-image: url(img/spa.jpg);
+        background-size: cover;
+    }
+
+.foto2
+    {
+    width: 25%;
+    height: 100%;
+    float: left;
+    background-image: url(img/chacra.jpg);
+    background-size: cover;
+    display: inline;
+    }
+
+.foto3
+    {
+    width: 25%;
+    height: 100%;
+    float: left;
+    background-image: url(img/hotel.jpg);
+    background-size: cover;
+    display: inline;
+    }
+
+.foto4
+    {
+    width: 25%;
+    height: 100%;
+    float: left;
+    background-image: url(img/camping.png);
+    background-size: cover;
+    display: inline;
+    }
+
+.Main
+    {width: 100%;
+    height: 170%;
+    }
+
+h5
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+h6
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        margin-left: 20px;
+        text-align: left;
+        background-color: darkslategrey;
+        color: bisque;
+    }
+
+.listahoteles
+    {
+        margin-left: 30px;
+        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+.listadptos
+    {
+        margin-left: 30px;
+        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+.listacamping
+    {
+        margin-left: 30px;
+        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+.fotoytexto
+    {
+        width: 100%;
+        height: 80%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+.foto
+    {
+        width: 50%;
+        height: 100%;
+        float: left;
+        background-image: url(img/Carhue3.jpg);
+        background-size: cover;
+        display: inline-block;
+    }
+
+.texto 
+    {
+        width: 50%;
+        height: 100%;
+        float: right;
+    }
+
+.fotoytextodos
+    {
+        width: 100%;
+        height: 80%;
+        margin-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+.fotodos 
+    {
+        width: 50%;
+        height: 100%;
+        float: right;
+        background-image: url(img/Carhue3.jpg);
+        background-size: cover;
+
+    }
+
+.textodos 
+    {
+    width: 50%;
+    height: 100%;
+    float: left;
+    }
+
+.footer
+    {
+        width: 100%;
+        height: 20%;
+        margin-top: 20px;
+        background-color: darkslategray;
+    }
+
